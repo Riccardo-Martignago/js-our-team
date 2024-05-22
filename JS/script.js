@@ -32,7 +32,9 @@ const objectList = [
 ];
 console.log(objectList);
 let i = 0;
+const sectionEl = document.querySelector('section.object')
 while(i < objectList.length){
     console.log(objectList[i]);
+    sectionEl.append(Object.values(objectList[i]), ' ')
     i++;
 }
