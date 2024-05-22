@@ -29,4 +29,10 @@ const objectList = [
         'ruolo' : 'Graphic Designer',
         'foto' : 'barbara-ramos-graphic-designer.jpg'
     }
-]
+];
+console.log(objectList);
+let i = 0;
+while(i < objectList.length){
+    console.log(objectList[i]);
+    i++;
+}
