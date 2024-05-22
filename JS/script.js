@@ -32,9 +32,11 @@ const objectList = [
 ];
 console.log(objectList);
 let i = 0;
-const sectionEl = document.querySelector('section.object')
+const ulEl = document.querySelector('ul')
 while(i < objectList.length){
     console.log(objectList[i]);
-    sectionEl.append(Object.values(objectList[i]), ' ')
+    const liEl = document.createElement('li')
+    ulEl.appendChild(liEl)
+    liEl.append(Object.values(objectList[i]));
     i++;
 }
