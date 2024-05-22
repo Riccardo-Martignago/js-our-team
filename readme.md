@@ -16,3 +16,10 @@ Ragioniamo come sempre a step. Prima la logica in italiano e poi traduciamo in c
 E ricordiamoci che console.log() è nostro amico!
 N.B.
 Questo esercizio deve essere entro la mattinata di domani!
+
+//PROCEDURA\\
+
+Creare un array con gli oggetti al suo interno.
+Aggiungo le informazioni ai vari oggetti.
+Stampo in console i vari oggetti con i valori: nome, ruolo e foto
+Stampo le informazioni nel dom come stringhe
